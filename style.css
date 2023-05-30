@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #352f5b;
+  color: #fff;
+  margin-bottom: 200px;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 50px;
+}
+
+.teask {
+  border-bottom: 3px solid rgb(190, 200, 190);
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(102, 102, 214);
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 22px;
+}
+
+.icon2 {
+  margin-left: 10px;
+  font-size: 22px;
+}
+
+.icon:hover,
+.icon2:hover {
+  font-size: 24px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+p {
+  font-size: 20px;
+}
+
+.icon-star,
+.icon-trash-o {
+  opacity: 0.4;
+}
+
+.icon-trash-o {
+  margin-right: 10px;
+}
+
+.icon-trash-o:hover {
+  color: orange;
+  opacity: 1;
+}
+
+.icon-star:hover {
+  color: orange;
+  opacity: 1;
+}
+
+.icon-angry {
+  color: gold;
+  font-size: 24px;
+}
+
+/* 
+ */
+.title2 {
+  margin-bottom: 20px;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  padding: 10px 20px;
+  border-radius: 6px;
+  width: 35vw;
+  font-size: 21px;
+  text-align: center;
+
+}
+
+button {
+  all: unset;
+}
+
+.icon-cloud-upload {
+  font-size: 40px;
+  margin-left: 15px;
+  position: relative;
+  top: 9px;
+
+}
+.icon-cloud-upload:hover{
+  font-size: 43;
+  transition: 0.2;
+color: aquamarine;
+}
+.prinss{
+  font-size: 40px;
+  color:red;
+}
+.dis{
+  display: none;
+}
+.icon-heart{
+  color: red;
+  font-size: 30px;
+  margin-right: 10px;
+}
+.icon-heart:hover{
+  font-size: 33px;
+  transition: 0.3;
+}
+.fenihe{
+  text-decoration: line-through;
+  text-decoration-style:wavy;
+
+}
+.orange{
+  color: red;
+  opacity: 1;
+}
+
+
+
+
+@media screen and  (max-width: 400px){
+  body{
+    background: linear-gradient(red,green);
+  }
+  
+}@media screen and  (max-width: 786px){
+  body{
+    background: linear-gradient(rgb(195, 255, 0),rgb(26, 0, 128));
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
